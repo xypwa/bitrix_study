@@ -1,0 +1,23 @@
+# IDE & OS
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Composer
+/vendor/
+
+# Bitrix core & uploads (not versioned in project git)
+/www/bitrix/
+/www/upload/
+/www/install.config
+
+# Local runtime, logs & secrets
+/www/local/.settings.php
+/www/local/.settings_extra.php
+*.log
+*.sql
+*.sql.gz
+*.tar.gz
+*.enc.gz
+*.zip
